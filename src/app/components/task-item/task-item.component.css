@@ -1,0 +1,25 @@
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.task.reminder {
+  border-left: 5px solid green;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete:hover {
+  transform: scale(1.5);
+}
+
+.task:hover {
+  box-shadow: 1px 1px 1px 1px  #cdcaca;
+  transform: scale(1.05);
+}
